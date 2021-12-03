@@ -10,7 +10,7 @@ LB_BINARY_FILESYSTEM="fat32"
 LB_APT_INDICES="true"
 
 # Set boot parameters
-LB_BOOTAPPEND_LIVE="boot=live components quiet splash"
+LB_BOOTAPPEND_LIVE="boot=live components quiet noswap"
 
 # Set boot parameters
 LB_BOOTAPPEND_INSTALL=""
@@ -22,7 +22,7 @@ LB_BOOTAPPEND_LIVE_FAILSAFE="boot=live components memtest noapic noapm nodma nom
 LB_BOOTLOADER_BIOS="syslinux"
 
 # Set EFI bootloader
-LB_BOOTLOADER_EFI="grub-efi"
+LB_BOOTLOADER_EFI=""
 
 # Set checksums
 LB_CHECKSUMS="sha256"
@@ -47,7 +47,7 @@ LB_DEBIAN_INSTALLER_DISTRIBUTION="bullseye"
 LB_DEBIAN_INSTALLER_PRESEEDFILE=""
 
 # Toggle use of GUI debian-installer
-LB_DEBIAN_INSTALLER_GUI="true"
+LB_DEBIAN_INSTALLER_GUI="false"
 
 # Set hdd label
 LB_HDD_LABEL="DEBIAN_LIVE"
@@ -59,7 +59,7 @@ LB_HDD_SIZE="auto"
 LB_HDD_PARTITION_START=""
 
 # Set iso author
-LB_ISO_APPLICATION="Debian Live"
+LB_ISO_APPLICATION="Debian Live HPE SSA"
 
 # Set iso preparer
 LB_ISO_PREPARER="live-build @LB_VERSION@; https://salsa.debian.org/live-team/live-build"
