@@ -16,7 +16,7 @@ LB_APT_HTTP_PROXY=""
 LB_APT_PIPELINE=""
 
 # Set apt/aptitude recommends
-LB_APT_RECOMMENDS="false"
+LB_APT_RECOMMENDS="true"
 
 # Set apt/aptitude security
 LB_APT_SECURE="true"
@@ -67,7 +67,7 @@ APT_OPTIONS="--yes -o Acquire::Retries=5"
 APTITUDE_OPTIONS="--assume-yes -o Acquire::Retries=5"
 
 # Set options to use with debootstrap
-DEBOOTSTRAP_OPTIONS=""
+DEBOOTSTRAP_OPTIONS="--variant=minbase --include=apt-transport-https,ca-certificates,openssl"
 
 # Set script to use with debootstrap
 DEBOOTSTRAP_SCRIPT=""
