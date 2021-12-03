@@ -18,7 +18,6 @@ lb config noauto \
 	--apt-secure "true" \
 	--apt-source-archives "true" \
 	--linux-package "linux-image" \
-	--bootloader "syslinux" \
 	--debian-installer "none" \
 	--debian-installer-gui "false" \
 	--iso-application "Debian Live HPE SSA" \

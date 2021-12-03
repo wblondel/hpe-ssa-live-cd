@@ -22,7 +22,7 @@ LB_BOOTAPPEND_LIVE_FAILSAFE="boot=live components memtest noapic noapm nodma nom
 LB_BOOTLOADER_BIOS="syslinux"
 
 # Set EFI bootloader
-LB_BOOTLOADER_EFI=""
+LB_BOOTLOADER_EFI="grub-efi"
 
 # Set checksums
 LB_CHECKSUMS="sha256"
