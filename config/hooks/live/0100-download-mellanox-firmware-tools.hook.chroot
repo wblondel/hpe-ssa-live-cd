@@ -8,5 +8,5 @@ rm mft-4.17.0-106-x86_64-deb.tgz
 chmod +x ./mft-4.17.0-106-x86_64-deb/install.sh
 
 sudo wget -O /usr/sbin/mlxup http://www.mellanox.com/downloads/firmware/mlxup/4.17.0/SFX/linux_x64/mlxup
-sudo chmod +x /usr/bin/mlxup
+sudo chmod +x /usr/sbin/mlxup
 
