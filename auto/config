@@ -17,11 +17,14 @@ lb config noauto \
   --debconf-frontend noninteractive \
   --debian-installer none \
   --debian-installer-gui false \
-  --debootstrap-options "--variant=minbase --include=apt-transport-https,ca-certificates,openssl" \
+  --debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
   --distribution bullseye \
+  --firmware-binary true \
+  --firmware-chroot true \
+  --initramfs live-boot \
   --mode debian \
   --system live \
-  --bootappend-live "boot=live components quiet splash" \
+  --bootappend-live "boot=live config splash" \
   --linux-package "linux-image" \
   --iso-application "Debian Live HPE SSA" \
   --memtest none \

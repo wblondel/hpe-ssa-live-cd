@@ -10,7 +10,7 @@ LB_BINARY_FILESYSTEM="ext4"
 LB_APT_INDICES="false"
 
 # Set boot parameters
-LB_BOOTAPPEND_LIVE="boot=live components quiet splash"
+LB_BOOTAPPEND_LIVE="boot=live config splash"
 
 # Set boot parameters
 LB_BOOTAPPEND_INSTALL=""

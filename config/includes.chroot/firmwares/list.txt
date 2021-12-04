@@ -1,0 +1,1 @@
+firmware-smartarray-ea3138d8e8-7.00-1.1.x86_64.rpm	http://downloads.linux.hpe.com/SDR/repo/spp-gen10/2021.05.0/packages/firmware-smartarray-ea3138d8e8-7.00-1.1.x86_64.rpm
