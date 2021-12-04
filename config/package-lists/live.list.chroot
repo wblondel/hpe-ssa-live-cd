@@ -10,3 +10,12 @@ wget
 
 # To extract firmwares
 rpm2cpio
+
+# To install the Mellanox Firmware Tools (MFT)
+gcc
+make
+dkms
+
+# To use the Mellanox Firmware Tools (MFT)
+pciutils
+usbutils

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sudo /mft-4.17.0-106-x86_64-deb/install.sh >> /tmp/mft-install.log
+sudo mst start >> /tmp/mft-install.log
+sudo rm -rf /mft-4.17.0-106-x86_64-deb/

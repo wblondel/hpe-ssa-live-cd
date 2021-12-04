@@ -4,7 +4,7 @@ set -e
 
 lb config noauto \
   --apt-recommends true \
-  --apt-indices false \
+  --apt-indices true \
   --architectures amd64 \
   --archive-areas 'main contrib non-free' \
   --backports false \
@@ -25,7 +25,7 @@ lb config noauto \
   --mode debian \
   --system live \
   --bootappend-live "boot=live config splash" \
-  --linux-package "linux-image" \
+  --linux-package "linux-image linux-headers" \
   --iso-application "Debian Live HPE SSA" \
   --memtest none \
   --clean \
